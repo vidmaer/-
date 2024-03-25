@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int sttetrad, stkarandash, stlineika, kolvokarandash, kolvotetrad, stoimost;
+    
+    cout <<"Kol-vo karandashei: ";
+    cin >> kolvokarandash;
+    
+    cout <<"Stoimost 1 karandasha: ";
+    cin >> stkarandash;
+    
+    cout <<"Kol-vo tetradei: ";
+    cin >> kolvotetrad;
+    
+    cout <<"Stoimost 1 tetradi: ";
+    cin >> sttetrad;
+    
+    cout << "Stoimost 1 lineiki: ";
+    cin >> stlineika;
+    
+    stoimost = (kolvokarandash * stkarandash) + (kolvotetrad * sttetrad) + stlineika;
+    
+    cout << "Polnaya stoimost: " << stoimost << endl;
+    
+    return 0;
+}
