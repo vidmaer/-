@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string FirstName ="Sergei";
+    string SurName ="Davydov";
+    
+    cout <<"Menya zovyt: " << FirstName << " "  << SurName << endl;
+    return 0;
+}
