@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float pounds, kilograms;
+
+    cout << "Ves v foontah: ";
+    cin >> pounds;
+
+    kilograms = pounds * 0.453592;
+
+    cout << "Ves v kilogramah: " << kilograms << endl;
+
+    return 0;
+}
