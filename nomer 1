@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+    float vysota, osnovanie, ploshad;
+    
+    cout << "Vvedite vysoty: ";
+    cin >> vysota;
+    
+    cout << "Vvedite osnovanie: ";
+    cin >> osnovanie;
+    
+    ploshad = vysota * osnovanie / 2;
+    
+    cout << "Ploshad treygolnika: " << ploshad << endl;
+    
+    return 0;
+}
